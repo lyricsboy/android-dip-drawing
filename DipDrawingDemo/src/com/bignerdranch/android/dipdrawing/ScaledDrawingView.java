@@ -12,11 +12,11 @@ public class ScaledDrawingView extends View {
 	private Matrix mDensityScalingMatrix;
 
 	public ScaledDrawingView(Context context) {
-		super(context);
+		this(context, null);
 	}
 
 	public ScaledDrawingView(Context context, AttributeSet attrs) {
-		super(context, attrs);
+		this(context, attrs, 0);
 	}
 
 	public ScaledDrawingView(Context context, AttributeSet attrs, int defStyle) {
